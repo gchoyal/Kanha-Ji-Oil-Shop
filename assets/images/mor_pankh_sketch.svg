@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" fill="none">
+  <!-- Subtle Hand-Drawn / Sketch Mor Pankh Line Art (Watermark) -->
+  <g stroke="#9C6B1C" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <!-- Central Curved Stem / Rachis -->
+    <path d="M200 580 C195 480 190 380 185 280 C182 220 188 160 200 90 C206 50 215 25 220 15" stroke-width="2.2" />
+
+    <!-- Center Eye of Peacock Feather -->
+    <ellipse cx="206" cy="115" rx="34" ry="46" transform="rotate(8 206 115)" stroke-width="1.8" />
+    <ellipse cx="207" cy="118" rx="24" ry="34" transform="rotate(8 207 118)" stroke-width="1.5" />
+    <ellipse cx="208" cy="120" rx="14" ry="20" transform="rotate(8 208 120)" stroke-width="1.4" />
+    <circle cx="208" cy="122" r="7" stroke-width="1.2" />
+
+    <!-- Delicate radiating barbs from the eye top -->
+    <path d="M220 15 C210 2 230 -10 245 -18" />
+    <path d="M218 20 C232 10 250 5 268 2" />
+    <path d="M214 30 C238 20 262 18 285 18" />
+    <path d="M210 42 C242 35 275 38 300 45" />
+    <path d="M206 55 C248 52 288 62 315 78" />
+    <path d="M202 70 C252 75 295 95 325 115" />
+    <path d="M198 85 C255 100 298 128 328 155" />
+    <path d="M195 102 C252 125 295 160 322 195" />
+    
+    <!-- Left Radiating Barbs from Upper Feather -->
+    <path d="M220 15 C195 5 170 5 150 10" />
+    <path d="M215 25 C185 18 155 22 130 32" />
+    <path d="M210 38 C175 35 142 45 115 62" />
+    <path d="M205 52 C168 55 130 72 102 95" />
+    <path d="M200 68 C160 78 122 102 95 130" />
+    <path d="M196 85 C152 102 115 132 88 168" />
+    <path d="M192 105 C145 130 110 168 82 208" />
+
+    <!-- Mid Section Barbs (Right side) -->
+    <path d="M192 125 C248 155 290 195 315 240" />
+    <path d="M189 150 C242 185 282 230 305 280" />
+    <path d="M187 175 C238 215 272 265 292 318" />
+    <path d="M185 200 C232 245 262 298 280 355" />
+    <path d="M184 228 C228 275 252 332 268 390" />
+    <path d="M184 258 C222 308 242 365 255 422" />
+    <path d="M185 290 C218 342 232 398 242 455" />
+    <path d="M186 325 C212 375 224 430 230 485" />
+    <path d="M188 365 C208 412 216 462 220 512" />
+    <path d="M190 410 C204 452 210 495 212 538" />
+
+    <!-- Mid Section Barbs (Left side) -->
+    <path d="M189 128 C138 158 98 200 78 248" />
+    <path d="M187 155 C132 190 92 238 72 290" />
+    <path d="M185 182 C128 222 88 275 68 332" />
+    <path d="M184 212 C125 255 88 312 68 372" />
+    <path d="M184 242 C125 290 90 350 72 412" />
+    <path d="M184 275 C128 325 95 388 80 450" />
+    <path d="M185 310 C132 362 102 422 90 485" />
+    <path d="M186 350 C138 402 112 460 102 518" />
+    <path d="M188 395 C145 445 125 498 118 550" />
+
+    <!-- Interstitial Fine Filament Feathery Texture -->
+    <path d="M195 60 C215 56 235 60 250 68" stroke-width="0.8" />
+    <path d="M192 75 C215 74 238 80 255 92" stroke-width="0.8" />
+    <path d="M188 95 C215 98 240 108 260 124" stroke-width="0.8" />
+    <path d="M194 62 C175 60 155 65 140 75" stroke-width="0.8" />
+    <path d="M190 78 C170 80 150 88 135 102" stroke-width="0.8" />
+    <path d="M186 98 C165 104 142 118 126 135" stroke-width="0.8" />
+  </g>
+</svg>

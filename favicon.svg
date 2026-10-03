@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="oilGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F" />
+      <stop offset="45%" stop-color="#F4A217" />
+      <stop offset="100%" stop-color="#C62828" />
+    </linearGradient>
+    <linearGradient id="featherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00897B" />
+      <stop offset="50%" stop-color="#004D40" />
+      <stop offset="100%" stop-color="#1B5E20" />
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#F4A217" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <!-- Background Disc -->
+  <circle cx="32" cy="32" r="30" fill="#24180A" stroke="#F4A217" stroke-width="2.5" />
+  <circle cx="32" cy="32" r="26" fill="url(#glowGrad)" opacity="0.3" />
+  
+  <!-- Traditional Oil Drop -->
+  <path d="M32 10 C32 10 16 30 16 41 C16 49.8 23.2 57 32 57 C40.8 57 48 49.8 48 41 C48 30 32 10 32 10 Z" fill="url(#oilGrad)" />
+  
+  <!-- Subtle Mor Pankh (Peacock Feather Eye) in Drop -->
+  <ellipse cx="32" cy="38" rx="8" ry="12" fill="url(#featherGrad)" />
+  <ellipse cx="32" cy="38" rx="5" ry="8" fill="#0277BD" />
+  <circle cx="32" cy="37" r="3" fill="#F4A217" />
+  
+  <!-- Highlight shine -->
+  <path d="M25 28 C23 33 23 42 27 46 C25 43 25 35 28 30 Z" fill="#FFFFFF" opacity="0.6" />
+</svg>

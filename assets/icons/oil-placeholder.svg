@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5EB" />
+      <stop offset="100%" stop-color="#F2E6CE" />
+    </linearGradient>
+    <linearGradient id="oilGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F" />
+      <stop offset="60%" stop-color="#F4A217" />
+      <stop offset="100%" stop-color="#D68700" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#cardBg)" rx="12" />
+  
+  <!-- Subtle decorative ring -->
+  <circle cx="150" cy="140" r="85" fill="none" stroke="#E5D6BA" stroke-width="2" stroke-dasharray="6,4" />
+  
+  <!-- Traditional Bottle Silhouette -->
+  <!-- Bottle Cap -->
+  <rect x="135" y="45" width="30" height="18" rx="4" fill="#C62828" />
+  <rect x="132" y="60" width="36" height="8" rx="2" fill="#F4A217" />
+  <!-- Bottle Neck -->
+  <path d="M136 68 L136 90 Q120 115 110 135 L110 220 Q110 235 125 235 L175 235 Q190 235 190 220 L190 135 Q180 115 164 68 Z" fill="#FFFFFF" stroke="#D1C2A5" stroke-width="2.5" />
+  <!-- Oil Liquid inside -->
+  <path d="M113 140 Q150 145 187 140 L187 218 Q187 232 173 232 L127 232 Q113 232 113 218 Z" fill="url(#oilGrad)" opacity="0.85" />
+  <!-- Label on Bottle -->
+  <rect x="115" y="150" width="70" height="50" rx="4" fill="#FFF9C4" stroke="#F4A217" stroke-width="1.5" />
+  <!-- Peacock feather icon on label -->
+  <ellipse cx="150" cy="168" rx="6" ry="10" fill="#00796B" />
+  <circle cx="150" cy="168" r="3.5" fill="#0277BD" />
+  <circle cx="150" cy="168" r="1.5" fill="#F4A217" />
+  <text x="150" y="190" font-family="system-ui, sans-serif" font-size="7" font-weight="bold" fill="#8E0000" text-anchor="middle">कान्हाजी</text>
+  
+  <!-- Text below bottle -->
+  <text x="150" y="265" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#795548" text-anchor="middle" letter-spacing="1">KANHA JI OILS</text>
+  <text x="150" y="280" font-family="system-ui, sans-serif" font-size="10" fill="#A1887F" text-anchor="middle">100% Pure • Traditional</text>
+</svg>
