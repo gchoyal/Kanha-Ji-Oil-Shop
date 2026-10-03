@@ -260,6 +260,8 @@ p:last-child {
   color: #FFFFFF;
   border: 1px solid rgba(0, 105, 92, 0.95);
   box-shadow: 0 4px 14px rgba(0, 105, 92, 0.25);
+  max-width: 100%;
+	white-space: normal;
 }
 
 .btn-primary:hover,
@@ -3656,4 +3658,10 @@ video.yt-iframe {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+
+section#store-location .store-detail-text a {
+    color: black;
+    text-decoration: underline;
 }
